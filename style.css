@@ -1,0 +1,97 @@
+body 
+{
+    background-image: url(images/back4.jpeg);
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+
+.transparent 
+{
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid rgb(68, 9, 75);
+    opacity: 0.6;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 28px;
+    font-family: 'Courgette';
+    font-weight: bold;
+    padding:0px;
+}
+
+.titles
+{
+    padding:15px;
+    margin:0;
+    color: rgb(25, 25, 25);
+}
+
+#title2 
+{
+    font-size: 28px;
+}
+
+.transparent2 
+{
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid rgb(68, 9, 75);
+    opacity: 0.6;
+    text-align: left;
+    border-radius: 10px; 
+    font-family: 'Courgette';
+    padding-left: 10px;
+    font-weight: bold;
+    width: 55%;
+}
+
+hr 
+{
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.infoMe
+{
+    margin-top:8px;
+    margin-right: 5%;
+}
+
+.infoMe li 
+{
+    font-size: 22px;
+    color: rgb(25, 25, 25);
+    text-align: justify;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #ffffff;
+    opacity: 0.6; 
+    font-family: 'Courgette';
+    font-weight: bold;
+    font-size:22px;
+    width: 100%;
+  }
+  
+  .nav li {
+    float: left;
+  }
+  
+  .nav li a {
+    display: block;
+    color: rgb(25, 25, 25);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    background-color: rgb(218, 205, 205);
+  }
