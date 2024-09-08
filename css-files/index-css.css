@@ -1,0 +1,137 @@
+/* Section for the "up" div (the top part) */
+#up {
+    display: flex;
+    justify-content: space-between; /* Aligns greeting and image side by side */
+    align-items: center;
+    padding-bottom: 40px; /* Adds space between up and down */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Greeting section within "up" */
+.greeting {
+    padding: 70px;
+    padding-right: 0;
+    font-size: 30px;
+}
+
+/* Framed picture in "up" */
+.framedPic {
+    padding-right: 70px;
+}
+
+/* Hello world text styling */
+#hellowrld {
+    font-family: "Silkscreen";
+}
+
+/* Subheading text styling */
+#me {
+    font-size: 28px;
+    padding-bottom: 15px;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+/* Button styling */
+.buttons {
+    background-color: rgba(157, 251, 182, 0.529);
+    border: none;
+    border-radius: 40px;
+    color: rgb(18, 81, 60);
+    padding: 15px 32px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.147), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Silkscreen';
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-right: 20px;
+}
+
+/* Button hover effect */
+.buttons:hover {
+    background-color: rgba(209, 251, 208, 0.645);
+}
+
+/* Image styling for drop shadow */
+img {
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+/* Smooth scrolling behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Down section for "My motivation" */
+#down {
+    margin-top: 50px; /* Adds space between the up and down sections */
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+/* "My motivation" title */
+#motives {
+    font-family: 'Silkscreen';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Content container for image and text in "down" */
+.content-container {
+    display: flex;
+    align-items: center; /* Vertically centers the image and text */
+    justify-content: space-between; /* Places the image and text on opposite sides */
+    max-width: 100%; /* Ensures the content doesn't overflow */
+}
+
+/* Paragraph inside "down" */
+#desire {
+    width: 100%;
+    margin-left: 20px; /* Adds space between the image and text */
+    font-size: 26px;
+    text-align: justify;
+    margin: 50px;
+    margin-top:0;
+    margin-bottom:20px;
+    font-style: italic;
+}
+
+/* Image inside "down" section */
+#nl {
+    margin-right: 20px;
+}
+
+/* Horizontal rule styling */
+hr {
+    border-color: rgb(18, 81, 60);
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(18, 81, 60);
+    color: #ffffffdc; /* White text color */
+    text-align: center; /* Center the content */
+    padding:1px;
+}
+
+p
+{
+    padding:0px;
+    margin:5px;
+    font-size: 12px;
+    text-align:left;
+}
+
+footer a {
+    color: #ffffffdc; /* White color for links */
+    text-decoration: none; /* Remove underline */
+    padding: 0 10px; /* Adds some space between links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
