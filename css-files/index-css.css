@@ -89,7 +89,7 @@ html {
 }
 
 /* Paragraph inside "down" */
-#desire {
+.desire {
     width: 100%;
     margin-left: 20px; /* Adds space between the image and text */
     font-size: 26px;
@@ -118,7 +118,7 @@ footer {
     padding:1px;
 }
 
-p
+footer p
 {
     padding:0px;
     margin:5px;
@@ -134,4 +134,19 @@ footer a {
 
 footer a:hover {
     text-decoration: underline; /* Underline on hover */
+}
+
+.paragraphs
+{
+    padding-right: 30px;
+}
+
+.reasons
+{
+    width: 100%;
+    margin-left: 0; /* Adds space between the image and text */
+    font-size: 26px;
+    text-align: justify;
+    font-style: italic;
+    margin-left:10px;
 }
