@@ -1,4 +1,7 @@
 /* Section for the "up" div (the top part) */
+body {
+    padding-top: 60px; /* Allows space for the fixed navbar */
+}
 #up {
     display: flex;
     justify-content: space-between; /* Aligns greeting and image side by side */
