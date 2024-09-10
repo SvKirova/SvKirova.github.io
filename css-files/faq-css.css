@@ -5,9 +5,10 @@ details{
     border-radius: 20px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.147), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     letter-spacing: 2px;
-    width: 80%;
+    width: 78%;
     margin-bottom: 25px;
-  }
+    margin-left: 15px;
+    }
   
   summary {
     padding: 15px;
@@ -46,6 +47,7 @@ details{
   #faq-title{
     font-family: 'Silkscreen';
     margin: 40px;
+    text-align: center;
   }
 
   div p {
@@ -59,3 +61,11 @@ details{
     font-style: italic;
   }
 
+  #faq-pic{
+    float:right;
+    margin:0;
+    margin-right: 35px;
+    margin-top:50px;
+    width:240px;
+    height:240px;
+  }
