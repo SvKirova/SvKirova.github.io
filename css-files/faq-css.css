@@ -3,22 +3,29 @@ details{
     color: #fff;
     font-size: 22px;
     border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.147), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    letter-spacing: 2px;
+    width: 80%;
+    margin-bottom: 25px;
   }
   
   summary {
     padding: 15px;
     list-style: none;
     display: flex;
-    justify-content: space-between;  
-    transition: height 1s ease;
+    justify-content: space-between; 
+    font-family: 'Silkscreen';
+    font-style: normal;
   }
 
   summary:after{
     content: "\002B";
+    font-family: 'Tomorrow';
+    font-weight: bold;
   }
   
   details[open] summary {
-      border-bottom: 1px solid rgb(0, 125, 83);;
+      border-bottom: 1px solid rgb(0, 125, 83);
   }
   
   details[open] summary:after{
@@ -26,5 +33,29 @@ details{
   }
   
   details[open] div{
-    padding-bottom: 10px;
+    padding:50px;
+    padding-top:0;
+    padding-bottom: 20px;
+    text-align: justify;
   }
+
+  div ol li {
+    margin-bottom:10px;
+  }
+
+  #faq-title{
+    font-family: 'Silkscreen';
+    margin: 40px;
+  }
+
+  div p {
+    margin-bottom:0;
+  }
+
+  div p a {
+    text-decoration: none;
+    color:rgb(160, 249, 219);
+    font-weight: bold;
+    font-style: italic;
+  }
+

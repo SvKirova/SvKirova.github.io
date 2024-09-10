@@ -39,8 +39,8 @@ th, td {
 }
 
 #title{
-    font-style: italic;
     margin: 40px;
+    font-family: 'Silkscreen';
 }
 
 input[type=text] {
