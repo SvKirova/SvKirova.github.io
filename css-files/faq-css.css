@@ -1,25 +1,24 @@
 details{
     background-color: rgb(18, 81, 60);
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 22px;
+    border-radius: 20px;
   }
   
   summary {
-    padding: .5em 1.3rem;
+    padding: 15px;
     list-style: none;
     display: flex;
     justify-content: space-between;  
     transition: height 1s ease;
   }
 
-  
   summary:after{
     content: "\002B";
   }
   
   details[open] summary {
-      border-bottom: 1px solid #aaa;
-      margin-bottom: .5em;
+      border-bottom: 1px solid rgb(0, 125, 83);;
   }
   
   details[open] summary:after{
@@ -27,5 +26,5 @@ details{
   }
   
   details[open] div{
-    padding: .5em 1em;
+    padding-bottom: 10px;
   }

@@ -95,7 +95,7 @@ html {
 .desire {
     width: 100%;
     margin-left: 20px; /* Adds space between the image and text */
-    font-size: 26px;
+    font-size: 25px;
     text-align: justify;
     margin: 50px;
     margin-top:0;
@@ -148,7 +148,7 @@ footer a:hover {
 {
     width: 100%;
     margin-left: 0; /* Adds space between the image and text */
-    font-size: 26px;
+    font-size: 25px;
     text-align: justify;
     font-style: italic;
     margin-left:10px;
