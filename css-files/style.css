@@ -81,3 +81,8 @@ footer a {
 footer a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+
+hr {
+    border-color: rgb(18, 81, 60);
+    margin: 0;
+}

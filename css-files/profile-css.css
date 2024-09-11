@@ -1,0 +1,74 @@
+img{
+filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+#profile-pic{
+    margin:20px;
+    padding:0;
+}
+
+#about-me {
+    margin-bottom:30px;
+}
+
+#personal-info, #extra-activ{
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.text {
+    font-family: 'Silkscreen';
+    font-size: 20px;
+    float: right;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.text ul li{
+    margin:0;
+    padding-bottom: 5px;
+    text-align:left;
+    font-family: 'Tomorrow';
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+#about-me {
+    margin:10px;
+}
+
+#pic-down{
+    float: right;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+    padding: 0;
+    margin-top:60px;
+    margin-right: 50px;
+}
+
+.paragraphs{
+    float: left;
+    width: 65%;
+    font-family: 'Tomorrow';
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+.para{
+    margin:0;
+    margin-top:50px;
+    margin-left:20px;
+    padding-bottom: 2px;
+    text-align:justify;
+    font-family: 'Tomorrow';
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+
+.information{
+    overflow: hidden;
+}
