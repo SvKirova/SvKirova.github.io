@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css-files/posts-css.css">
     <link href='https://fonts.googleapis.com/css?family=Silkscreen' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Tomorrow' rel='stylesheet'>
+    <script type="text/javascript" src="../sidenav.js"></script>
     <title>Portfolio | Profession</title>
 </head>
 
@@ -16,6 +17,25 @@
     <header>
         <nav>
             <ul>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <aside>
+                        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf"
+                            target="_blank"> HZ HBO-ICT Course and Examination Regulations (CER)</a>
+                        <hr class="separator">
+                        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
+                            target="_blank"> the Implementation Regulations (IR)</a>
+                        <hr class="separator">
+                        <a href="https://fs.myhz.nl/adfs/oauth2/authorize/?resource=urn%3AWebservice-hz_portal&state=3ae463701ed72a5d2fd720bc841c4d48&scope=openid&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fportal.hz.nl%2Fauth%2Fadfs%2Fcallback&client_id=b25d3143-ffab-46db-96bd-fff258b69da3&client-request-id=fae4faaf-3998-4c2f-3100-00800304006c&pullStatus=0"
+                            target="_blank">Learn environment</a>
+                        <hr class="separator">
+                        <a href="https://fs.myhz.nl/adfs/ls/?SAMLRequest=lZJBU8IwEIX%2FSif3Nm2F0mZoZxAOMoPCQPXgLaRbyEyaYDZV9NdbWx3xwozXzX5v973NFHmjTmzWuqPewksL6LxzozSy%2FiEnrdXMcJTING8AmRNsN7tfsTgI2ckaZ4RR5AK5TnBEsE4aTbzlIifz9bZcx%2BkeIEnjik%2ByOkpFmN7sw9F4koyTDLK0rkIR8yzhxHsCix2bk06qE0BsYanRce26UhiP%2FDDzo7iMIhaNWJw8E2%2FR%2BZGau546OndCRmmNQfN%2B%2FAi0oryqkSqkxJv9bDY3GtsG7A7sqxTwuF39kqAPUkOAra2F0XB2vUaXHWgnRT%2BG4omKQcK%2FcLv5jupW6krqw%2FWU9kMTsruy3Pib9a4kxfQrXNZ7tsU%2F92nA8Yo7PqWXItPh9A%2Fd%2BOViY5QU795MKfM2t8Ad5MTZFggtBurvHyk%2BAQ%3D%3D&client-request-id=50b5d1f8-3f2c-475e-0f01-008003040066&pullStatus=0"
+                            target="_blank">My HZ Progress</a>
+                        <hr class="separator">
+                        <a href="https://github.com/HZ-HBO-ICT" target="_blank">HBO-ICT GitHub</a>
+                    </aside>
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../profile.html">Profile</a></li>
                 <li><a href="../dashboard.html">Dashboard</a></li>
@@ -28,28 +48,95 @@
     <main>
 
         <div class="container">
-            <h1 class="page-heading">Profession</h1>
-            <img id="pic-top" src="../images/ict-code.png" width="500px" height="490px">
+            <h1 class="page-heading">Future dream profession</h1>
+            <div class="image-stack">
+                <img id="pic-top" src="../images/it-specialist.png" width="550px" height="440px"
+                    style="margin-top:40px"><br>
+                <img id="pic-top" src="../images/microsoft.png" width="540px" height="420px" 
+                    style="margin-top:200px"><br>
+                <img id="pic-top" src="../images/apple.png" width="510px" height="420px" 
+                    style="margin-top:230px"><br>
+                <img id="pic-top" src="../images/google.png" width="590px" height="420px"
+                    style="margin-top:180px">
+            </div>
             <div class="text">
                 <hr id="top-hr">
-                <h1 id="reasons">What is my dream?</h1>
+                <h1 id="reasons">My dream companies</h1>
                 <hr>
                 <p>As you may already know, there is no such thing as the IT professional job. If you are an
                     undergraduate IT professional, you have many options to choose from in the IT field. Almost every
                     organization has to deal with some form of IT. That is why the job market for an IT-professional is
                     huge. You can work in many different areas after graduating. For mid-term decisions it is important
                     to get a more detailed understanding of the IT field and possibilities. Learn more about my dream
-                    companies, their company culture and type of work.</p>
+                    companies, their company culture and type of work.
+                    <br><br>
+                    I do have some dream companies in mind I would like to work for in the future, such as Apple, Google
+                    and Microsoft. The importance and magnitude of these corporations, along with their market share in
+                    different parts of our technology-driven world, means that they strive for the best and put all
+                    their time and resources towards innovating. I am looking for exactly that – the chance and ability
+                    to work with very talented people and help innovate the technology space.
+                </p>
                 <hr>
-                <!--
-                <h1 id="after-study">After completing the study</h1>
+
+                <h1 id="after-study">Microsoft</h1>
                 <hr>
-                <p>Before the start of the academic year at HZ UAS, every student had to fill in a personal SWOT
-                    analysis. By doing that, each student can analyze their personal strengths and weaknesses as well as
-                    opportunities and possible threats for their studies. In this article, I will list my answers of the
-                    SWOT analysis questions and provide more detailed information about them.</p>
+                <p>Microsoft is a major global technology company known for its diverse projects, including software
+                    development (Windows, Office), cloud computing (Azure), AI and machine learning, and hardware
+                    products (Surface, Xbox). They employ a wide range of IT technologies such as Azure cloud services,
+                    Power BI for data analytics, and various development frameworks. With over 220,000 employees
+                    worldwide, Microsoft operates as a multinational corporation with a strong focus on innovation,
+                    inclusivity, and employee growth. Their international presence supports a global customer base, and
+                    job roles include software engineers, product managers, data scientists, and cloud specialists,
+                    reflecting their broad technological scope and commitment to a collaborative and dynamic work
+                    environment.
+                    <br> <br>
+                    I want to work at Microsoft because I see it as the perfect place for me to
+                    grow and continuously learn. The company’s focus on a growth mindset really aligns with my personal
+                    goals—I want to constantly challenge myself, expand my skills, and contribute to projects that make
+                    a real difference. Microsoft gives me the opportunity to do just that, whether it’s through working
+                    with cutting-edge technologies or collaborating with some of the brightest minds in the industry.
+                </p>
+                <p id="source"> Sources: Microsoft Careers, Microsoft's About Page </p>
                 <hr>
-                -->
+
+                <h1 id="after-study">Apple</h1>
+                <hr>
+                <p>Apple is a leading global technology company recognized for its innovative products, including
+                    iPhones, iPads, Macs, and software like iOS and macOS. They employ advanced technologies such as
+                    custom-designed silicon chips and machine learning tools. With a workforce of over 150,000 people
+                    worldwide, Apple operates as a multinational corporation with a strong focus on design, user
+                    experience, and environmental sustainability. Their international presence supports a diverse
+                    customer base, and their job roles range from hardware and software engineers to product designers
+                    and retail specialists. This wide array of positions reflects Apple’s commitment to creativity,
+                    high-quality craftsmanship, and a collaborative work environment.
+                    <br> <br>
+                    I would want to work at Apple because of its focus on creating world-class, user-friendly products
+                    that shape how people interact with technology. The culture at Apple emphasizes problem-solving,
+                    innovation, and pushing boundaries, which aligns with my desire to work in a place where I can
+                    contribute to transformative projects. Moreover, Apple’s commitment to privacy and sustainability
+                    makes it a company I admire.
+                </p>
+                <p id="source"> Sources: Apple Careers, Apple's About Page </p>
+                <hr>
+
+                <h1 id="after-study">Google</h1>
+                <hr>
+                <p>Google is a global tech giant working on diverse projects like search engine technology, cloud
+                    computing, AI, and consumer electronics. They use cutting-edge IT technologies such as Kubernetes,
+                    TensorFlow, and custom data center hardware. With over 200,000 employees worldwide, Google is a
+                    multinational corporation with a strong emphasis on innovation, collaboration, and employee
+                    well-being. They operate internationally, providing services and products globally. Job roles at
+                    Google range from software engineers and product managers to data scientists and UX/UI designers,
+                    reflecting their broad range of operations and commitment to fostering a creative and supportive
+                    work environment.
+                    <br> <br>
+                    I’d want to work at Google because it represents a unique blend of innovation and opportunity. The
+                    chance to be at the forefront of technological advancements and contribute to impactful projects is
+                    incredibly motivating.
+                </p>
+                <p id="source"> Sources: Google Careers, Google's About Page </p>
+                <hr>
+
             </div>
         </div>
         <!--
