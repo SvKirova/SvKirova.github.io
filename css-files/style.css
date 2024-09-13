@@ -11,42 +11,42 @@ body {
 
 main {
     display: block;
-    padding: 70px 20px; /* Ensures some space around the content */
+    padding: 70px 20px; 
 }
 
 /* Navbar styles */
 nav {
-    background-color: rgb(18, 81, 60); /* Dark background for the nav bar */
-    color: #fff; /* White text color */
-    padding: 10px 0; /* Padding for space around the links */
-    width: 100%; /* Full width */
-    position: fixed; /* Fixes the nav bar to the top */
+    background-color: rgb(18, 81, 60); 
+    color: #fff; 
+    padding: 10px 0; 
+    width: 100%; 
+    position: fixed; 
     top: 0;
     left: 0;
-    z-index: 1000; /* Ensures it's on top of other content */
+    z-index: 1000; 
     font-family: 'Silkscreen';
 }
 
 /* Navigation list styles */
 nav ul {
     list-style: none;
-    display: flex; /* Aligns list items horizontally */
-    justify-content: right; /* Align items to the right */
+    display: flex; 
+    justify-content: right; 
     padding-right: 20px;
-    margin: 0; /* Removes default padding */
+    margin: 0;
 }
 
 /* Navigation list item styles */
 nav ul li {
-    margin-right: 20px; /* Space between links */
+    margin-right: 20px; 
 }
 
 /* Link styling */
 nav ul li a {
-    color: #fff; /* White text color for links */
-    text-decoration: none; /* Remove underline */
-    padding: 10px 20px; /* Space around the text */
-    display: block; /* Makes the link fill the list item */
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    display: block; 
     border-radius: 30px;
     font-size: 17.5px;
 }
@@ -54,13 +54,13 @@ nav ul li a {
 /* Link hover and active styles */
 nav ul li a:hover,
 nav ul li a.active {
-    background-color: rgb(0, 125, 83); /* Darker background on hover or active */
+    background-color: rgb(0, 125, 83); 
 }
 
 footer {
     background-color: rgb(18, 81, 60);
-    color: #ffffffdc; /* White text color */
-    text-align: center; /* Center the content */
+    color: #ffffffdc; 
+    text-align: center; 
     padding:1px;
 }
 
@@ -73,13 +73,13 @@ footer p
 }
 
 footer a {
-    color: #ffffffdc; /* White color for links */
-    text-decoration: none; /* Remove underline */
-    padding: 0 10px; /* Adds some space between links */
+    color: #ffffffdc;
+    text-decoration: none; 
+    padding: 0 10px;
 }
 
 footer a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; 
 }
 
 hr {
@@ -136,7 +136,7 @@ hr {
   }
 
   .sidenav aside a:hover{
-    background-color: rgb(0, 125, 83); /* Darker background on hover or active */
+    background-color: rgb(0, 125, 83); 
 }
 
 .sidenav aside a {

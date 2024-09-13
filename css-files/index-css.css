@@ -1,12 +1,12 @@
 /* Section for the "up" div (the top part) */
 body {
-    padding-top: 60px; /* Allows space for the fixed navbar */
+    padding-top: 60px; 
 }
 #up {
     display: flex;
-    justify-content: space-between; /* Aligns greeting and image side by side */
+    justify-content: space-between;
     align-items: center;
-    padding-bottom: 40px; /* Adds space between up and down */
+    padding-bottom: 40px; 
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -70,7 +70,7 @@ html {
 
 /* Down section for "My motivation" */
 #down {
-    margin-top: 50px; /* Adds space between the up and down sections */
+    margin-top: 50px; 
     margin-left:50px;
     margin-right: 50px;
 }
@@ -86,15 +86,15 @@ html {
 /* Content container for image and text in "down" */
 .content-container {
     display: flex;
-    align-items: center; /* Vertically centers the image and text */
-    justify-content: space-between; /* Places the image and text on opposite sides */
-    max-width: 100%; /* Ensures the content doesn't overflow */
+    align-items: center; 
+    justify-content: space-between; 
+    max-width: 100%; 
 }
 
 /* Paragraph inside "down" */
 .desire {
     width: 100%;
-    margin-left: 20px; /* Adds space between the image and text */
+    margin-left: 20px; 
     font-size: 25px;
     text-align: justify;
     margin: 50px;
@@ -112,8 +112,8 @@ html {
 
 footer {
     background-color: rgb(18, 81, 60);
-    color: #ffffffdc; /* White text color */
-    text-align: center; /* Center the content */
+    color: #ffffffdc; 
+    text-align: center; 
     padding:1px;
 }
 
@@ -126,13 +126,13 @@ footer p
 }
 
 footer a {
-    color: #ffffffdc; /* White color for links */
-    text-decoration: none; /* Remove underline */
-    padding: 0 10px; /* Adds some space between links */
+    color: #ffffffdc; 
+    text-decoration: none; 
+    padding: 0 10px; 
 }
 
 footer a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; 
 }
 
 .paragraphs
