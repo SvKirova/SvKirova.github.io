@@ -102,3 +102,21 @@ img{
 .image-stack {
     float:left;
 }
+
+button{
+    padding: 10px;
+    width: 160px;
+    background-color: rgba(209, 251, 208, 0.704);
+    font-weight: bold;
+    color: rgb(18, 81, 60);
+    font-family: 'Silkscreen';
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top:15px;
+     cursor: pointer;
+     border: 3px solid rgb(18, 81, 60);
+  }
+  
+  button:hover {
+    background-color: rgb(241, 254, 249);
+  }
