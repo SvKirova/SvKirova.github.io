@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css-files/posts-css.css">
     <link href='https://fonts.googleapis.com/css?family=Silkscreen' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Tomorrow' rel='stylesheet'>
-    <script type="text/javascript" src="../sidenav.js"></script>
+    <script type="text/javascript" src="../asideMenu.js"></script>
     <title>Portfolio | Programming experience</title>
 </head>
 
@@ -17,30 +17,37 @@
     <header>
         <nav>
             <ul>
-                <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <!-- Aside menu-->
+                <div id="myAsideMenu" class="asideMenu">
+                    <a href="javascript:void(0)" class="closeButton" onclick="closeMenu()">&times;</a>
                     <aside>
-                        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf" target="_blank"> HZ HBO-ICT Course and Examination Regulations (CER)</a>
+                        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf"
+                            target="_blank"> HZ HBO-ICT Course and Examination Regulations (CER)</a>
                         <hr class="separator">
-                        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf" target="_blank"> the Implementation Regulations (IR)</a>
+                        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
+                            target="_blank"> the Implementation Regulations (IR)</a>
                         <hr class="separator">
-                        <a href="https://fs.myhz.nl/adfs/oauth2/authorize/?resource=urn%3AWebservice-hz_portal&state=3ae463701ed72a5d2fd720bc841c4d48&scope=openid&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fportal.hz.nl%2Fauth%2Fadfs%2Fcallback&client_id=b25d3143-ffab-46db-96bd-fff258b69da3&client-request-id=fae4faaf-3998-4c2f-3100-00800304006c&pullStatus=0" target="_blank">Learn environment</a>
+                        <a href="https://fs.myhz.nl/adfs/oauth2/authorize/?resource=urn%3AWebservice-hz_portal&state=3ae463701ed72a5d2fd720bc841c4d48&scope=openid&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fportal.hz.nl%2Fauth%2Fadfs%2Fcallback&client_id=b25d3143-ffab-46db-96bd-fff258b69da3&client-request-id=fae4faaf-3998-4c2f-3100-00800304006c&pullStatus=0"
+                            target="_blank">Learn environment</a>
                         <hr class="separator">
-                        <a href="https://fs.myhz.nl/adfs/ls/?SAMLRequest=lZJBU8IwEIX%2FSif3Nm2F0mZoZxAOMoPCQPXgLaRbyEyaYDZV9NdbWx3xwozXzX5v973NFHmjTmzWuqPewksL6LxzozSy%2FiEnrdXMcJTING8AmRNsN7tfsTgI2ckaZ4RR5AK5TnBEsE4aTbzlIifz9bZcx%2BkeIEnjik%2ByOkpFmN7sw9F4koyTDLK0rkIR8yzhxHsCix2bk06qE0BsYanRce26UhiP%2FDDzo7iMIhaNWJw8E2%2FR%2BZGau546OndCRmmNQfN%2B%2FAi0oryqkSqkxJv9bDY3GtsG7A7sqxTwuF39kqAPUkOAra2F0XB2vUaXHWgnRT%2BG4omKQcK%2FcLv5jupW6krqw%2FWU9kMTsruy3Pib9a4kxfQrXNZ7tsU%2F92nA8Yo7PqWXItPh9A%2Fd%2BOViY5QU795MKfM2t8Ad5MTZFggtBurvHyk%2BAQ%3D%3D&client-request-id=50b5d1f8-3f2c-475e-0f01-008003040066&pullStatus=0" target="_blank">My HZ Progress</a>
+                        <a href="https://fs.myhz.nl/adfs/ls/?SAMLRequest=lZJBU8IwEIX%2FSif3Nm2F0mZoZxAOMoPCQPXgLaRbyEyaYDZV9NdbWx3xwozXzX5v973NFHmjTmzWuqPewksL6LxzozSy%2FiEnrdXMcJTING8AmRNsN7tfsTgI2ckaZ4RR5AK5TnBEsE4aTbzlIifz9bZcx%2BkeIEnjik%2ByOkpFmN7sw9F4koyTDLK0rkIR8yzhxHsCix2bk06qE0BsYanRce26UhiP%2FDDzo7iMIhaNWJw8E2%2FR%2BZGau546OndCRmmNQfN%2B%2FAi0oryqkSqkxJv9bDY3GtsG7A7sqxTwuF39kqAPUkOAra2F0XB2vUaXHWgnRT%2BG4omKQcK%2FcLv5jupW6krqw%2FWU9kMTsruy3Pib9a4kxfQrXNZ7tsU%2F92nA8Yo7PqWXItPh9A%2Fd%2BOViY5QU795MKfM2t8Ad5MTZFggtBurvHyk%2BAQ%3D%3D&client-request-id=50b5d1f8-3f2c-475e-0f01-008003040066&pullStatus=0"
+                            target="_blank">My HZ Progress</a>
                         <hr class="separator">
                         <a href="https://github.com/HZ-HBO-ICT" target="_blank">HBO-ICT GitHub</a>
                     </aside>
                 </div>
-                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+                <span style="font-size:30px;cursor:pointer" onclick="openMenu()">&#9776; </span>
+
+                <!-- Navigation menu -->
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../profile.html">Profile</a></li>
                 <li><a href="../dashboard.html">Dashboard</a></li>
                 <li><a href="../faq.html">FAQ</a></li>
-                <li><a href="../blog.html">Blog</a></li>
+                <li><a class="active" href="../blog.html">Blog</a></li>
             </ul>
         </nav>
     </header>
-
+    
     <main>
         <div class="container">
             <h1 class="page-heading">Programming experience</h1>

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css-files/posts-css.css">
     <link href='https://fonts.googleapis.com/css?family=Silkscreen' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Tomorrow' rel='stylesheet'>
-    <script type="text/javascript" src="../sidenav.js"></script>
+    <script type="text/javascript" src="../asideMenu.js"></script>
     <title>Portfolio | Profession</title>
 </head>
 
@@ -17,8 +17,9 @@
     <header>
         <nav>
             <ul>
-                <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <!-- Aside menu-->
+                <div id="myAsideMenu" class="asideMenu">
+                    <a href="javascript:void(0)" class="closeButton" onclick="closeMenu()">&times;</a>
                     <aside>
                         <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf"
                             target="_blank"> HZ HBO-ICT Course and Examination Regulations (CER)</a>
@@ -35,12 +36,14 @@
                         <a href="https://github.com/HZ-HBO-ICT" target="_blank">HBO-ICT GitHub</a>
                     </aside>
                 </div>
-                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+                <span style="font-size:30px;cursor:pointer" onclick="openMenu()">&#9776; </span>
+
+                <!-- Navigation menu -->
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../profile.html">Profile</a></li>
                 <li><a href="../dashboard.html">Dashboard</a></li>
                 <li><a href="../faq.html">FAQ</a></li>
-                <li><a href="../blog.html">Blog</a></li>
+                <li><a class="active" href="../blog.html">Blog</a></li>
             </ul>
         </nav>
     </header>
