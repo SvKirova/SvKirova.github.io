@@ -1,0 +1,106 @@
+body {
+    padding-top: 60px;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Top part of the page styling */
+#up-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    margin: 0px 50px;
+}
+
+.greeting {
+    padding: 70px;
+    font-size: 30px;
+}
+
+.pic-of-me {
+    padding-right: 70px;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+#hello-world {
+    font-family: "Silkscreen";
+}
+
+#who-am-i {
+    font-size: 28px;
+    padding-bottom: 15px;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+/* Buttons "motives" and "cv" */
+.buttons {
+    background-color: rgba(157, 251, 182, 0.529);
+    border: none;
+    border-radius: 40px;
+    color: rgb(18, 81, 60);
+    padding: 15px 32px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.147), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Silkscreen';
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-right: 20px;
+}
+
+.buttons:hover {
+    background-color: rgba(209, 251, 208, 0.645);
+}
+
+/* Bottom part of the page for "My motivation" */
+#down-section {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#my-motivation {
+    font-family: 'Silkscreen';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pic-of-middelburg {
+    margin-right: 20px;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+.paragraphs {
+    padding-right: 30px;
+}
+
+.desire {
+    width: 100%;
+    margin-left: 20px;
+    font-size: 25px;
+    text-align: justify;
+    margin: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.reasons {
+    width: 100%;
+    font-size: 25px;
+    text-align: justify;
+    font-style: italic;
+    margin-left: 10px;
+}
