@@ -1,22 +1,26 @@
-img{
-filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+img {
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
 }
 
-#profile-pic{
-    margin:20px;
-    padding:0;
+/* Top part of the page - profile pic and general information */
+
+#pic-in-container {
+    margin: 20px;
+    padding: 0;
 }
 
 #about-me {
-    margin-bottom:30px;
+    margin-bottom: 30px;
+    margin: 10px;
 }
 
-#personal-info, #extra-activ{
-    margin-top:0;
+#personal-info,
+#extra-activities {
+    margin-top: 0;
     margin-bottom: 0;
 }
 
-.text {
+.text-in-container {
     font-family: 'Silkscreen';
     font-size: 20px;
     float: right;
@@ -24,29 +28,27 @@ filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
     margin-right: 60px;
 }
 
-.text ul li{
-    margin:0;
+.text-in-container ul li {
+    margin: 0;
     padding-bottom: 5px;
-    text-align:left;
+    text-align: left;
     font-family: 'Tomorrow';
     font-weight: bold;
     font-size: 21px;
     letter-spacing: 2px;
 }
 
-#about-me {
-    margin:10px;
-}
+/* Bottom part of the page - paragraphs with description of me and collage */
 
-#pic-down{
+#collage {
     float: right;
     filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
     padding: 0;
-    margin-top:60px;
+    margin-top: 60px;
     margin-right: 50px;
 }
 
-.paragraphs{
+.paragraphs {
     float: left;
     width: 65%;
     font-family: 'Tomorrow';
@@ -56,12 +58,12 @@ filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
     text-align: justify;
 }
 
-.para{
-    margin:0;
-    margin-top:50px;
-    margin-left:20px;
+.para {
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 20px;
     padding-bottom: 2px;
-    text-align:justify;
+    text-align: justify;
     font-family: 'Tomorrow';
     font-weight: bold;
     font-size: 22px;
@@ -69,6 +71,6 @@ filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
 }
 
 
-.information{
+.information-about-me {
     overflow: hidden;
 }
