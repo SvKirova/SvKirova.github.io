@@ -10,7 +10,7 @@ main {
   padding: 70px 20px;
 }
 
-/* USELESS */
+/* the lines separating the links in the aside menu */
 .separator {
   border-color: #f1f1f1;
   width: 150px;
