@@ -1,16 +1,16 @@
 table {
-    border-collapse: separate;
-    border-spacing: 0;
+    width: 95%;
     font-size: 17px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.147), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: rgba(255, 255, 255, 0.63);
+    border: 1px solid rgb(18, 81, 60);
     border-radius: 20px;
+    border-collapse: separate;
+    border-spacing: 0;
     overflow: hidden;
-    border: 1px solid rgb(18, 81, 60); 
     margin-bottom: 60px;
-    width: 95%;
     margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
 }
 
 thead {
@@ -20,9 +20,17 @@ thead {
     text-align: center;
 }
 
-th, td {
+th,
+td {
     padding: 20px 15px;
     border: 1px solid rgb(18, 81, 60);
+}
+
+th p {
+    border-radius: 9px;
+    padding: 12px;
+    margin: 0;
+    background-color: rgb(0, 125, 83);
 }
 
 .quartiles {
@@ -35,30 +43,28 @@ th, td {
     text-align: center;
 }
 
-.headers {
-    border-radius: 9px;
-    padding: 12px;
-    margin: 0;
-    background-color: rgb(0, 125, 83);
+.grades {
+    text-align: center;
 }
 
-#title{
+/* Title of the page */
+#course-structure {
     margin: 40px;
     font-family: 'Silkscreen';
     text-align: center;
 }
 
-.progress-bar{
+.progress-bar {
     position: relative;
     width: 80%;
     height: 40px;
     border: 3px solid rgb(18, 81, 60);
     border-radius: 20px;
-    margin-left:10%;
+    margin-left: 10%;
     margin-bottom: 30px;
 }
 
-.progress-bar-fill{
+.progress-bar-fill {
     height: 100%;
     background: rgb(0, 125, 83);
     width: 75%;
@@ -66,44 +72,43 @@ th, td {
 }
 
 .progress-bar-value p {
-    margin:0;
+    margin: 0;
     padding: 0;
 }
-.progress-bar-value #pass{
+
+.progress-bar-value #pass {
     position: absolute;
     height: 100%;
     width: auto;
-    margin-left:69%;
+    margin-left: 69%;
     display: flex;
     align-items: center;
-    color:#ffffff;
+    color: #ffffff;
 }
 
-.progress-bar-value #max{
+.progress-bar-value #max {
     position: absolute;
     height: 100%;
     width: auto;
-    margin-left:94%;
+    margin-left: 94%;
     display: flex;
     align-items: center;
     font-weight: bold;
 }
 
-#subtitle-1 {
+/* Subtitle 1 */
+#study-monitor {
     font-size: 25px;
-    margin:0;
-    margin-bottom:20px;
+    margin: 0;
+    margin-bottom: 20px;
     text-align: center;
     font-family: 'Silkscreen';
 }
 
-#subtitle-2 {
+/* Subtitle 2 */
+#requirements {
     font-size: 20px;
     font-style: italic;
-    margin:0;
-    text-align: center;
-}
-
-.grades {
+    margin: 0;
     text-align: center;
 }
