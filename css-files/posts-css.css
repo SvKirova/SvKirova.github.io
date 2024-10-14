@@ -1,53 +1,61 @@
-img{
+/* For the images in every post page */
+img {
     filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
-    }
-    
-/* Study choice page */ 
+}
 
-    #pic-up{
-        margin:10px;
-        margin-top: 50px;
-        margin-left:20px;
-        padding:0;
-    }
-    #reasons, #after-study{
-        margin-top:0;
-        margin-bottom: 0;
-    }
-    
-    .text {
-        font-family: 'Silkscreen';
-        font-size: 20px;
-        float: right;
-        text-align: center;
-        margin-right: 60px;
-    }
-    
-    .text p{
-        margin:0;
-        padding-bottom: 5px;
-        text-align:justify;
-        font-family: 'Tomorrow';
-        font-weight: bold;
-        font-size: 21px;
-        letter-spacing: 2px;
-        width: 740px;
-        padding: 15px;
-    }
-    
-    .container{
-        overflow: hidden;
-    }
+/* Profession page */
+.source {
+    text-decoration: none;
+    color: #093a17;
+}
+
+/* Study choice page */
+#pic-up {
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+#reasons,
+#after-study {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text {
+    font-family: 'Silkscreen';
+    font-size: 20px;
+    float: right;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.text p {
+    margin: 0;
+    padding-bottom: 5px;
+    text-align: justify;
+    font-family: 'Tomorrow';
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 2px;
+    width: 740px;
+    padding: 15px;
+}
+
+.container {
+    overflow: hidden;
+}
 
 /* Personal SWOT analysis page */
-.page-heading{
+.page-heading {
     font-family: 'Silkscreen';
     font-size: 45px;
     text-align: center;
 }
 
 .all-questions {
-    margin:20px;
+    margin: 20px;
 }
 
 .question {
@@ -55,55 +63,55 @@ img{
     font-size: 35px;
 }
 
-#pic-top{
-    margin:5px;
-        margin-top: 50px;
-        margin-left:50px;
-        padding:0;
-        margin-right: 0;
+#pic-top {
+    margin: 5px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 0;
+    margin-right: 0;
 }
 
 .answer {
-    font-size:22px;
+    font-size: 22px;
     font-weight: bold;
     text-align: justify;
     width: 50%;
 }
 
 #source {
-    font-size:15px;
-    padding:5px;
+    font-size: 15px;
+    padding: 5px;
     text-align: right;
 }
 
 #pic-down {
-    float:right;
+    float: right;
     margin: 20px;
-    margin-top:180px;
+    margin-top: 180px;
     margin-right: 150px;
     padding: 0;
 }
 
-.all-questions{
+.all-questions {
     overflow: hidden;
-    margin-left:50px;
+    margin-left: 50px;
 }
 
 /* Programming experience */
 
 #hr-down {
-    width:50%;
+    width: 50%;
 }
 
-#top-hr{
+#top-hr {
     margin: 0;
 }
 
 .image-stack {
-    float:left;
+    float: left;
 }
 
-button{
+button {
     padding: 10px;
     width: 160px;
     background-color: rgba(209, 251, 208, 0.704);
@@ -112,11 +120,11 @@ button{
     font-family: 'Silkscreen';
     border-radius: 5px;
     font-size: 15px;
-    margin-top:15px;
-     cursor: pointer;
-     border: 3px solid rgb(18, 81, 60);
-  }
-  
-  button:hover {
+    margin-top: 15px;
+    cursor: pointer;
+    border: 3px solid rgb(18, 81, 60);
+}
+
+button:hover {
     background-color: rgb(241, 254, 249);
-  }
+}
