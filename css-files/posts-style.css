@@ -1,53 +1,35 @@
-/* For the images and hrs in every post page */
-img {
-    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+/* For all of the posts */
+
+button {
+    padding: 10px;
+    width: 160px;
+    background-color: rgba(209, 251, 208, 0.704);
+    font-weight: bold;
+    color: rgb(18, 81, 60);
+    font-family: 'Silkscreen';
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 3px solid rgb(18, 81, 60);
+}
+
+button:hover {
+    background-color: rgb(241, 254, 249);
+}
+
+.container {
+    overflow: hidden;
 }
 
 #line {
     margin: 0;
 }
 
-/* Profession page - styling all of the links for the sources*/
-.source-link {
-    text-decoration: none;
-    color: #093a17;
-}
-
-/* paragraphs' ids for the sources */
-#source {
-    font-size: 15px;
-    padding: 5px;
-    text-align: right;
-}
-
-.image-stack {
-    float: left;
-}
-
-/* Feedback page */
-#why-ict {
-    margin: 10px;
-    margin-top: 50px;
-    margin-left: 20px;
-    padding: 0;
-}
-
-/* Study choice page */
-#pic-up {
-    margin: 10px;
-    margin-top: 50px;
-    margin-left: 20px;
-    padding: 0;
-}
-
-#reasons,
-#after-study,
-#dream-companies,
-.company,
-#giving-feedback,
-#my-feedback {
-    margin-top: 0;
-    margin-bottom: 0;
+.page-heading {
+    font-family: 'Silkscreen';
+    font-size: 45px;
+    text-align: center;
 }
 
 .text {
@@ -70,44 +52,63 @@ img {
     padding: 15px;
 }
 
-.container {
+#dream-companies,
+.company,
+#giving-feedback,
+#my-feedback,
+#how-it-started,
+#what-is-swot,
+#our-task,
+#after-study {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#my-experience,
+#all-questions {
     overflow: hidden;
-}
-
-/* Personal SWOT analysis page */
-.page-heading {
-    font-family: 'Silkscreen';
-    font-size: 45px;
-    text-align: center;
-}
-
-.all-questions {
+    margin-left: 50px;
     margin: 20px;
 }
 
+#my-experience-title,
 .question {
     font-family: 'Silkscreen';
-    font-size: 35px;
+    margin-bottom: 0;
+    font-size: 42px;
 }
 
-.picture {
-    margin: 5px;
-    margin-top: 50px;
-    margin-left: 50px;
-    padding: 0;
-    margin-right: 0;
-}
-
+#info-prog-exp,
 .answer {
     font-size: 22px;
     font-weight: bold;
     text-align: justify;
-    width: 50%;
+    width: 52%;
 }
 
+.source-link {
+    text-decoration: none;
+    color: #093a17;
+}
 
+#source {
+    font-size: 15px;
+    padding: 5px;
+    text-align: right;
+}
 
-#pic-down {
+/* Images styling */
+
+#pic-feedback,
+#swot-img {
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+#ict-code,
+#pic-of-lamp {
     float: right;
     margin: 20px;
     margin-top: 180px;
@@ -115,35 +116,26 @@ img {
     padding: 0;
 }
 
-.all-questions {
-    overflow: hidden;
+img {
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+.image-stack {
+    float: left;
+}
+
+/* Profession page - styling all of the links for the sources*/
+
+.picture-prof {
+    margin: 5px;
+    margin-top: 50px;
     margin-left: 50px;
+    padding: 0;
+    margin-right: 0;
 }
 
-/* Programming experience */
-
-#hr-down {
-    width: 50%;
-}
-
-
-
-
-
-button {
-    padding: 10px;
-    width: 160px;
-    background-color: rgba(209, 251, 208, 0.704);
-    font-weight: bold;
-    color: rgb(18, 81, 60);
-    font-family: 'Silkscreen';
-    border-radius: 5px;
-    font-size: 15px;
-    margin-top: 15px;
-    cursor: pointer;
-    border: 3px solid rgb(18, 81, 60);
-}
-
-button:hover {
-    background-color: rgb(241, 254, 249);
+/* Hr styling */
+#line-prog-exp,
+.line-swot {
+    width: 52%;
 }
