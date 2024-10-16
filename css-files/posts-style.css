@@ -100,7 +100,13 @@ button:hover {
 
 /* Images styling */
 
-#pic-feedback,
+.pic-feedback {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 180px;
+    padding: 0;
+}
+
 #swot-img {
     margin: 10px;
     margin-top: 50px;

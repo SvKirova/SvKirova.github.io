@@ -43,6 +43,11 @@ th p {
     text-align: center;
 }
 
+.status {
+    text-align: center;
+    font-style: italic;
+}
+
 .grades {
     text-align: center;
 }

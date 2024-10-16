@@ -97,6 +97,11 @@ html {
     font-style: italic;
 }
 
+.desireLinks {
+    text-decoration: none;
+    color: #093a17;
+}
+
 .reasons {
     width: 100%;
     font-size: 25px;
