@@ -1,4 +1,5 @@
 /* All posts styling */
+
 .all-posts {
   margin-left: auto;
   margin-right: auto;
@@ -13,6 +14,7 @@
 }
 
 /* Title before the list of posts */
+
 #blog-title {
   font-family: 'Silkscreen';
   font-size: 32px;
@@ -26,6 +28,7 @@
 }
 
 /* Each post styling */
+
 .post {
   background: rgb(255, 255, 255);
   border: 2px solid rgb(18, 81, 60);

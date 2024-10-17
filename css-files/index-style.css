@@ -3,11 +3,13 @@ body {
 }
 
 /* Smooth scrolling */
+
 html {
     scroll-behavior: smooth;
 }
 
 /* Top part of the page styling */
+
 #up-section {
     display: flex;
     justify-content: space-between;
@@ -38,6 +40,7 @@ html {
 }
 
 /* Buttons "motives" and "cv" */
+
 .buttons {
     background-color: rgba(157, 251, 182, 0.529);
     border: none;
@@ -58,6 +61,7 @@ html {
 }
 
 /* Bottom part of the page for "My motivation" */
+
 #down-section {
     margin-top: 50px;
     margin-left: 50px;

@@ -16,6 +16,7 @@
 }
 
 /* The questions + their answers */
+
 details {
   background-color: rgb(18, 81, 60);
   color: #fff;
@@ -44,6 +45,7 @@ details[open] div {
 }
 
 /* The questions */
+
 summary {
   padding: 15px;
   list-style: none;
@@ -60,6 +62,7 @@ summary:after {
 }
 
 /* The answers */
+
 div ol li {
   margin-bottom: 10px;
 }
