@@ -1,7 +1,7 @@
 function openMenu() {
-    document.getElementById("myAsideMenu").style.width = "250px";
+    document.getElementById("asideMenu").style.width = "250px";
 }
 
 function closeMenu() {
-    document.getElementById("myAsideMenu").style.width = "0";
+    document.getElementById("asideMenu").style.width = "0";
 }
